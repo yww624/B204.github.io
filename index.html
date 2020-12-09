@@ -3,28 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>SETransformer: Transformer Speech enhancement</title>
+    <title>Bone-Conducted Speech to Air-Conducted Speech Conversion Based on Cycle-Consistent Adversarial Networks</title>
 </head>
 
 <body>
 
 
-    <h2 align="center"> Audio samples for "SETransformer: Transformer Speech enhancement"</h2>
-    <div><b>Authors:</b> WeiWei Yu, Jian Zhou, HuaBin Wang, Liang Tao, Hon Keung Kwan</div>
-    <div><b>Abstract:</b> Recurrent neural networks (RNNs), such as Transformers, GRUs, were important neural network
-        architectures in speech enhancement, due to their powerful sequence learning. However, it severely suffers from
-        an issue: unable to parallelize the sequential computation procedure. Therefore, many non-recurrent sequence
-        models that are built on convolution and attention operations have been proposed recently. Notably, models with
-        multi-head attention such as Transformer have demonstrated extreme effectiveness on many natural language
-        processing (NLP) tasks. However, they are non-trivial to apply to speech enhancement due to heavily rely on
-        position embeddings that require a considerable amount of design efforts. In this paper, we propose the
-        SETransformer which enjoys the advantages of both RNNs and the multi-head attention mechanism while avoids their
-        respective drawback. Experiments show that, as compared with the standard Transformer and the Transformers
-        baseline, the proposed attention approach can consistently achieve better performance in terms of speech quality
-        (PESQ) and intelligibility (STOI) on unseen noise conditions.</div>
+    <h2 align="center"> Audio samples for "Bone-Conducted Speech to Air-Conducted Speech Conversion Based on Cycle-Consistent Adversarial Networks"</h2>
+    <!-- <div><b>Authors:</b> WeiWei Yu, Jian Zhou, HuaBin Wang, Liang Tao, Hon Keung Kwan</div> -->
+    <div><b>Abstract:</b> Compared with traditional Air-Conducted Micro-phone (ACM) speech, 
+        Bone-Conducted Microphone (BCM) speech has the advantage of shielding background noise and 
+        helps to improve the communication quality in the strong noise environment. 
+        This paper proposes a method that uses Cycle-Consistent Adversarial Networks (CycleGAN) to extend the bandwidth for converting BCM speech to ACM speech based on the analysis of the bandwidth difference. 
+        The proposed method learns the mapping relationship between BCM speech and ACM speech without relying on parallel data, and does not require any additional data, modules or alignment process, it also avoids the over smoothing that is easy to appear in many statistical models. The experimental results show that the method can better reconstruct the high-frequency components of BCM speech. 
+        Compared with the original speech, it improves the subjective and objective results, and obtains Mel-spectrum features with higher similarity to the target speech.</div>
 
 
-    <h4>Comparing of different models(Clean, Noisy, LSTM, Transformer, SETransformer): </h4>
+    <h4>Comparing of different models(Normal, Bone, GMM, noparalleCycleGAN ): </h4>
 
     <table border="1">
         <tr>
