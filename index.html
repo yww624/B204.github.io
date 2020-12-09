@@ -28,12 +28,12 @@
 
     <table border="1">
         <tr>
-            <th>Clean</th>
-            <th>Noisy</th>
+            <th>Normal</th>
+            <th>Bone</th>
             <!-- <th>lstm</th> -->
-            <th>LSTM</th>
-            <th>Transformer</th>
-            <th>SETransformer</th>
+            <th>GMM</th>
+            <th>BLSTM</th>
+            <th>noparalleCycleGAN</th>
             <!-- <th>Causal-local-att-expanded</th> -->
             <!-- <th>Causal-local-att-staecked</th> -->
         </tr>
@@ -57,25 +57,25 @@
             <tr>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">A</div><audio controls>
-                        <source src="samples/clean/test001.wav"></audio>
+                        <source src="samples/Normal/011317.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">B</div><audio controls>
-                        <source src="samples/noisy/test001.wav">  </audio>
+                        <source src="samples/Bone/011317.wav">  </audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">C</div><audio controls>
-                        <source src="samples/lstm/test001.wav"></audio>
+                        <source src="samples/GMM/011317.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">D</div><audio controls>
-                        <source src="samples/Transformer/test001.wav"></audio>
+                        <source src="samples/BLSTM/011317.wav"></audio>
                 </td>
             <!-- </tr>
             <tr> -->
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">E</div><audio controls>
-                        <source src="samples/SETransformer/test001.wav"></audio>
+                        <source src="samples/CycleGAN/011317.wav"></audio>
                 </td>
 
                 <!-- <td><div style="float:left;width:20px;  margin-top:16px;">F</div><audio controls><source src="samples/d-s/test001.wav">  </audio></td> <td><div style="float:left;width:20px; margin-top: 16px;">G</div><audio controls>  <source src="samples/l-e/test001.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test001.wav"></audio></td></tr> -->
@@ -86,25 +86,25 @@
             <tr>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">A</div><audio controls>
-                        <source src="samples/clean/test002.wav"></audio>
+                        <source src="samples/Normal/011318.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">B</div> <audio controls>
-                        <source src="samples/noisy/test002.wav"></audio>
+                        <source src="samples/Bone/011318.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">C</div> <audio controls>
-                        <source src="samples/lstm/test002.wav"></audio>
+                        <source src="samples/GMM/011318.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">D</div> <audio controls>
-                        <source src="samples/Transformer/test002.wav"></audio>
+                        <source src="samples/BLSTM/011318.wav"></audio>
                 </td>
             
             <!-- <tr> -->
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">E</div><audio controls>
-                        <source src="samples/SETransformer/test002.wav"></audio>
+                        <source src="samples/CycleGAN/011318.wav"></audio>
 
                     <!-- </td><td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test002.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test002.wav"></audio> </td><td><div style="float:left;width:20px; margin-top:16px;">H</div> <audio controls><source src="samples/l-s/test002.wav"></audio></td></tr> -->
             </tr>
@@ -115,24 +115,24 @@
             <tr>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">A</div><audio controls>
-                        <source src="samples/clean/test003.wav"></audio>
+                        <source src="samples/Normal/011319.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">B</div><audio controls>
-                        <source src="samples/noisy/test003.wav"></audio>
+                        <source src="samples/Bone/011319.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">C</div><audio controls>
-                        <source src="samples/lstm/test003.wav"></audio>
+                        <source src="samples/GMM/011319.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">D</div><audio controls>
-                        <source src="samples/Transformer/test003.wav"></audio>
+                        <source src="samples/BLSTM/011319.wav"></audio>
             <!-- </tr>
             <tr> -->
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">E</div><audio controls>
-                        <source src="samples/SETransformer/test003.wav"></audio>
+                        <source src="samples/CycleGAN/011319.wav"></audio>
                 </td>
                 <!-- <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test003.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test003.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test003.wav"></audio></td></tr> -->
             </tr>
@@ -142,110 +142,28 @@
             <tr>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">A</div><audio controls>
-                        <source src="samples/clean/test004.wav"></audio>
+                        <source src="samples/Normal/011320.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">B</div><audio controls>
-                        <source src="samples/noisy/test004.wav"></audio>
+                        <source src="samples/Bone/011320.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">C</div><audio controls>
-                        <source src="samples/lstm/test004.wav"></audio>
+                        <source src="samples/GMM/011320.wav"></audio>
                 </td>
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">D</div><audio controls>
-                        <source src="samples/Transformer/test004.wav"></audio>
+                        <source src="samples/BLSTM/011320.wav"></audio>
                 </td>
             <!-- </tr>
             <tr> -->
                 <td>
                     <div style="float:left;width:20px; margin-top:16px;">E</div><audio controls>
-                        <source src="samples/SETransformer/test004.wav"></audio>
+                        <source src="samples/CycleGAN/011320.wav"></audio>
                 </td>
 
-                <!-- <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test004.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test004.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test004.wav"></audio></td></tr> -->
-            </tr>
-            <tr>
-                <td colspan=2><span>5. test005.wav.</span></td>
-            </tr>
-            <tr>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">A</div><audio controls>
-                        <source src="samples/clean/test005.wav"></audio>
-                </td>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">B</div><audio controls>
-                        <source src="samples/noisy/test005.wav"></audio>
-                </td>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">C</div><audio controls>
-                        <source src="samples/lstm/test005.wav"></audio>
-                </td>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">D</div><audio controls>
-                        <source src="samples/Transformer/test005.wav"></audio>
-                </td>
-            <!-- </tr>
-            <tr> -->
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">E</div><audio controls>
-                        <source src="samples/SETransformer/test005.wav"></audio>
-                </td>
-
-                <!-- <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test005.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test005.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test005.wav"></audio></td></tr> -->
-            </tr>
-            <tr>
-                <td colspan=2><span>6. test006.wav.</span></td>
-            </tr>
-            <tr>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">A</div><audio controls>
-                        <source src="samples/clean/test006.wav"></audio>
-                </td>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">B</div><audio controls>
-                        <source src="samples/noisy/test006.wav"></audio>
-                </td>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">C</div><audio controls>
-                        <source src="samples/lstm/test006.wav"></audio>
-                </td>
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">D</div><audio controls>
-                        <source src="samples/Transformer/test006.wav"></audio>
-                </td>
-            <!-- </tr>
-            <tr> -->
-                <td>
-                    <div style="float:left;width:20px; margin-top:16px;">E</div><audio controls>
-                        <source src="samples/SETransformer/test006.wav"></audio>
-                </td>
-            </tr>
-            
-                <!-- <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test006.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test006.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test006.wav"></audio></td></tr> -->
-
-                <!--       
-<tr><td colspan=2><span>7. test007.wav.</span></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">A</div><audio controls><source src="samples/clean/test007.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">B</div><audio controls><source src="samples/noisy/test007.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">C</div><audio controls><source src="samples/lstm/test007.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">D</div><audio controls><source src="samples/Transformer/test007.wav"></audio></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">E</div><audio controls><source src="samples/SETransformer/test007.wav"></audio></td>
-    
-     <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test007.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test007.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test007.wav"></audio></td></tr> 
- 
-<tr><td colspan=2><span>8. test008.wav.</span></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">A</div><audio controls><source src="samples/clean/test008.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">B</div><audio controls><source src="samples/noisy/test008.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">C</div><audio controls><source src="samples/lstm/test008.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">D</div><audio controls><source src="samples/Transformer/test008.wav"></audio></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">E</div><audio controls><source src="samples/SETransformer/test008.wav"></audio></td>
-     <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test008.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test008.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test008.wav"></audio></td></tr> 
- 
-<tr><td colspan=2><span>9. test009.wav.</span></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">A</div><audio controls><source src="samples/clean/test009.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">B</div><audio controls><source src="samples/noisy/test009.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">C</div><audio controls><source src="samples/lstm/test009.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">D</div><audio controls><source src="samples/Transformer/test009.wav"></audio></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">E</div><audio controls><source src="samples/SETransformer/test009.wav"></audio></td>
-     <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test009.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test009.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test009.wav"></audio></td></tr> 
- 
-<tr><td colspan=2><span>10. test010.wav.</span></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">A</div><audio controls><source src="samples/clean/test010.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">B</div><audio controls><source src="samples/noisy/test010.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">C</div><audio controls><source src="samples/lstm/test010.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">D</div><audio controls><source src="samples/Transformer/test010.wav"></audio></td></tr>
-<tr><td><div style="float:left;width:20px; margin-top:16px;">E</div><audio controls><source src="samples/SETransformer/test010.wav"></audio></td>
-     <td><div style="float:left;width:20px; margin-top:16px;">F</div><audio controls><source src="samples/d-s/test010.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">G</div><audio controls><source src="samples/l-e/test010.wav"></audio></td><td><div style="float:left;width:20px; margin-top:16px;">H</div><audio controls><source src="samples/l-s/test010.wav"></audio></td></tr> -->
-
+                
         </table>
     </blockquote>
 
